@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.*;
-public class Codsoft1
+public class NumGame
 {
     Scanner in = new Scanner(System.in);
     // int guessnum;
@@ -99,7 +99,7 @@ public class Codsoft1
     }
     public static void main(String[] args) {
         System.out.println("You have only 10 attempts\nAnd Your Initial Score is 100");
-        Codsoft1 t = new Codsoft1();
+        NumGame t = new NumGame();
         t.play(100);
     }
 }
